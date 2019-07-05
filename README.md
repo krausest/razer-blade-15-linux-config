@@ -11,3 +11,9 @@ Enables two finger history back and next overscroll and activates some hardware 
 
 # Set keyboard chroma
 Install openrazer and run the keyboard_chrome.sh shell script to get green keys except red arrow keys. Note that you might need to adjust $dev to match your keyboard device
+
+# NVidia Optimus
+Install optimus-manager, linuxXX-bbswitch, linux-nvidia and copy the optimus-manager.conf to /etc/optimus-manager and enjoy   (idle) energy consumption below below 10 W and 8 hours and more "time to empty".
+
+# Fix resume after suspend
+add `button.lid_init_state=open` to `GRUB_CMDLINE_LINUX_DEFAULT` in `/etc/default/grub` and update grub
