@@ -17,3 +17,6 @@ Install optimus-manager, linuxXX-bbswitch, linux-nvidia and copy the optimus-man
 
 # Fix resume after suspend
 add `button.lid_init_state=open` to `GRUB_CMDLINE_LINUX_DEFAULT` in `/etc/default/grub` and update grub
+
+# Terminal font size
+copy vconsole.conf to /etc/vconsole.conf and enjoy a readable console font size.
