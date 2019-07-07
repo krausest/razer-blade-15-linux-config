@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Chroma Keyboard
+Exec=/home/stefan/razer-blade-15-linux-config/keyboard_chroma.sh

@@ -10,7 +10,8 @@ Enables two finger history back and next overscroll and activates some hardware 
 `cp  chromium-flags.conf ~/.config/`
 
 # Set keyboard chroma
-Install openrazer and run the keyboard_chrome.sh shell script to get green keys except red arrow keys. Note that you might need to adjust $dev to match your keyboard device
+Install openrazer and run the keyboard_chroma.sh shell script to get green keys except red arrow keys. Note that you might need to adjust $dev to match your keyboard device.
+To start it automatically copy keyboard.desktop to ~/.config/autostart/ (and ajust the path in keyboard.desktop to keyboard_chroma.sh)
 
 # NVidia Optimus
 Install optimus-manager, linuxXX-bbswitch, linux-nvidia and copy the optimus-manager.conf to /etc/optimus-manager and enjoy   (idle) energy consumption below below 10 W and 8 hours and more "time to empty".
